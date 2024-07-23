@@ -1,0 +1,63 @@
+body{
+    background-image: url(ink.jpg);
+    color:rgb(13, 16, 19);
+}
+.my-info {
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #6d6666;
+    
+    border-radius: 10px;
+    box-shadow: 10px 10px 60px #000,
+    inset -20px -20px 60px rgba(111, 114, 117, 0.1);
+
+}
+.my-info 
+
+    {
+        
+        background-color: rgb(48, 150, 163);
+        animation-name: example;
+        animation-duration: 4s;
+        animation-delay: -2s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes example {
+        0%   {background-color: red;}
+        25%  {background-color: rgb(187, 30, 161);}
+        50%  {background-color: rgb(174, 174, 184);}
+        100% {background-color: green;}
+      }
+
+
+.my-info h2 {
+    margin-top: 0;
+    text-decoration: underline;
+}
+
+.my-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.my-info li {
+    margin-bottom: 10px;
+}
+
+.my-info li label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+    font-weight: rgb(187, 183, 183);
+    
+    
+}
+
+.my-info li span {
+    font-size: 16px;
+}
